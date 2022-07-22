@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-07-22T07:21:09 PDT" name="Default suite" finished-at="2022-07-22T07:22:24 PDT" duration-ms="74852">
+  <suite started-at="2022-07-22T07:33:38 PDT" name="Default suite" finished-at="2022-07-22T07:34:15 PDT" duration-ms="37000">
     <groups>
     </groups>
-    <test started-at="2022-07-22T07:21:09 PDT" name="Default test" finished-at="2022-07-22T07:22:24 PDT" duration-ms="74852">
-      <class name="com.bridgelabz.Actitime_HomepageTitle_Validation">
-        <test-method signature="verifyHomepageUsingTitle()[pri:0, instance:com.bridgelabz.Actitime_HomepageTitle_Validation@7a419da4]" started-at="2022-07-22T07:21:09 PDT" name="verifyHomepageUsingTitle" finished-at="2022-07-22T07:22:24 PDT" duration-ms="74764" status="PASS">
+    <test started-at="2022-07-22T07:33:38 PDT" name="Default test" finished-at="2022-07-22T07:34:15 PDT" duration-ms="37000">
+      <class name="com.bridgelabz.Verify_Alignmentof_UNandPWD_InFB">
+        <test-method signature="alignmentVerificationOfUNandPWD()[pri:0, instance:com.bridgelabz.Verify_Alignmentof_UNandPWD_InFB@7a419da4]" started-at="2022-07-22T07:33:38 PDT" name="alignmentVerificationOfUNandPWD" finished-at="2022-07-22T07:34:15 PDT" duration-ms="36915" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyHomepageUsingTitle -->
-      </class> <!-- com.bridgelabz.Actitime_HomepageTitle_Validation -->
+        </test-method> <!-- alignmentVerificationOfUNandPWD -->
+      </class> <!-- com.bridgelabz.Verify_Alignmentof_UNandPWD_InFB -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

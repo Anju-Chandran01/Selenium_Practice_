@@ -28,17 +28,13 @@ public class XpathPractice {
 		driver.findElement(By.xpath("//input[@name='lastname' and @placeholder='Lastname']")).sendKeys("John");
 		Thread.sleep(2000);
 		
-		
-		
 		//xpath using contains(text())
 		driver.findElement(By.xpath("//input[text(),'Phone :  ']")).sendKeys("7306096567");
-		
+		Thread.sleep(2000);
 		
 		// xpath using text() function
 		driver.findElement(By.xpath("//button[text()='Register'")).click();
-//		driver.findElement(By.xpath("//button[.='Register'")).click();
-		
-		
-		
+		// driver.findElement(By.xpath("//button[.='Register'")).click();
+		Thread.sleep(2000);
 	}
 }

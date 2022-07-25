@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.bridgelabz.Actitime_HomepageTitle_Validation">
+      <class name="com.bridgelabz.Ways_of_ClickingButton">
         <methods>
-          <include name="verifyHomepageUsingTitle"/>
+          <include name="diff_waystoclick_button"/>
         </methods>
-      </class> <!-- com.bridgelabz.Actitime_HomepageTitle_Validation -->
+      </class> <!-- com.bridgelabz.Ways_of_ClickingButton -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -15,14 +15,21 @@ public class Verify_Alignmentof_UNandPWD_InFB {
 		Thread.sleep(2000);
 		driver.manage().window().maximize();
 		Thread.sleep(2000);
-		WebElement unTB = driver.findElement(By.id("email")); 
+		
+		WebElement unTB = driver.findElement(By.id("email"));
+		Thread.sleep(2000);
 //		get the y-coordinate of username field 
 		int username_Ycordinate = unTB.getLocation().getY(); 
 		System.out.println(username_Ycordinate); 
+		Thread.sleep(2000);
+		
 		WebElement pwdTB = driver.findElement(By.name("pass")); 
+		Thread.sleep(2000);
 //		get the y-coordinate of password field 
 		int password_Ycordinate = pwdTB.getLocation().getY(); 
 		System.out.println(password_Ycordinate); 
+		Thread.sleep(2000);
+		
 //	    check whether the Y-coordinate of username and  password field are same 
 		if (username_Ycordinate==password_Ycordinate) { 
 			System.out.println("Both username and password fields are displayed in the same row"); 

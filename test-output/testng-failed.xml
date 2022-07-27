@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.bridgelabz.frame.FrameDemo">
+      <class name="com.bridgelabz.contextclick.MailArchieve">
         <methods>
+          <include name="contextClick_MailArchieve"/>
           <include name="launchBrowswe"/>
-          <include name="enterText_InsideAnElement_InTheFrame"/>
         </methods>
-      </class> <!-- com.bridgelabz.frame.FrameDemo -->
+      </class> <!-- com.bridgelabz.contextclick.MailArchieve -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

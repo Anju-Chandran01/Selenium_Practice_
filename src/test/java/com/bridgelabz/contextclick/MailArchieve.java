@@ -20,7 +20,6 @@ public class MailArchieve {
 		driver = new ChromeDriver();
 	}
 	
-	
 	@Test
 	public void contextClick_MailArchieve() throws InterruptedException, AWTException {
 
@@ -34,7 +33,7 @@ public class MailArchieve {
 		Thread.sleep(3000); 
 		
 		//enter password id 
-		driver.findElement(By.xpath("//input[@type='password']")).sendKeys("Anju162@123"); 
+		driver.findElement(By.xpath("//input[@type='password' and @name='password']")).sendKeys("Anju162@123"); 
 		
 		//click on Next button 
 		driver.findElement(By.xpath("//span[.='Next']")).click(); 

@@ -25,11 +25,9 @@ public class ContextClick {
 	
 	@Test
 	public void contextClick_UsingActionClass() throws InterruptedException, AWTException {
-
-		driver.get("file:///C:/Users/HP/eclipse-workspace/CQASelenium_Practice/src/test/java/com/bridgelabz/frame/Framepage2.html");
-		driver.manage().window().maximize();
-		Thread.sleep(2000);
+		
 		driver.get("https://demo.actitime.com/login.do");
+		driver.manage().window().maximize();
 		Thread.sleep(2000);
 		
 		//find the ActiTIME Inc. link 

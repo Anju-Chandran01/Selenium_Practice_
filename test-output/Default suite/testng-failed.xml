@@ -3,11 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.bridgelabz.Ways_of_ClickingButton">
+      <class name="com.bridgelabz.frame.FrameDemo">
         <methods>
-          <include name="diff_waystoclick_button"/>
+          <include name="launchBrowswe"/>
+          <include name="enterText_InsideAnElement_InTheFrame"/>
         </methods>
-      </class> <!-- com.bridgelabz.Ways_of_ClickingButton -->
+      </class> <!-- com.bridgelabz.frame.FrameDemo -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
